@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.7;
+}
+
+/* Header Section */
+.hero-section {
+  text-align: center;
+  padding: 80px 20px 40px;
+  background: linear-gradient(to bottom, #fff 0%, #f5f7fa 100%);
+  border-bottom: 2px solid #eee;
+}
+
+.logo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #01578C;
+  margin: 0;
+}
+
+.logo span {
+  color: #D71D30;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #555;
+  margin-top: 12px;
+}
+
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.content h2 {
+  color: #01578C;
+  font-size: 2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.content h3 {
+  color: #D71D30;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.content p {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+/* FAQ List */
+.content ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content ol li {
+  margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #f5f7fa;
+  border-top: 1px solid #ddd;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 2.2rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  .content h2 {
+    font-size: 1.6rem;
+  }
+  .content h3 {
+    font-size: 1.3rem;
+  }
+}
